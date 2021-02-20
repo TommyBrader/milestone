@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A collection of my completed milestones for Web Development and User Experience">
+  <meta name="author" content="Tommy Brader">
+  <title>Milestones</title>
+  <link rel="stylesheet" href="milestone.css">
+</head>
+<body>
+  <!-- Milestones Title -->
+  <section id="title">
+  <h1>Milestones</h1>
+  <p>If they build upon one another then I will copy and paste relevant bits so they cumulate rather than be disparate.</p>
+</section>
+  <hr id="divide">
+
+<!-- Milestone 1 -->
+  <section id="milestone1">
+  <h2>Milestone 1</h2>
+<p>
+  Create an HTML document that has at least:
+  <ul>
+    <li>A head with proper meta (viewport, title, description, etc)</li>
+    <li>A header</li>
+    <li>A form</li>
+  </ul>
+</p>
+<hr id="blue">
+<header>
+  <h3>A Heading Within a Header</h3>
+</header>
+<h4>Forms:</h4>
+<div id="names">
+<form >
+  First name: <input id = "firstname" type = "text" name = "first_name"/>
+  <br>
+  Last name:  <input id = "lastname" type = "text" name = "last_name" />
+</form>
+</div>
+<div id="textbox">
+  <p>
+<form>
+  Text Box: <br>
+  <textarea rows = "5" cols = "50" name = "description">Write Here...</textarea>
+  <br>
+  <button>Submit</button>
+</form>
+</p>
+</div>
+<div id="radiochoice">
+  <p>
+Would you like: <br>
+<form>
+    <input type = "radio" name = "foodchoice" value = "chicken"> Chicken
+    <input type = "radio" name = "foodchoice" value = "noodles"> Noodles
+    <input type = "radio" name = "foodchoice" value = "chilli"> Chilli
+    <input type = "radio" name = "foodchoice" value = "cake"> Cake
+ </form>
+</p>
+</div>
+</section>
+<hr id="divide">
+
+<!-- Milestone 2 -->
+<section id="milestone2">
+<h2>Milestone 2</h2>
+<p>Create a new Codepen that has at least the following:
+  <ul>
+    <li>A head with proper meta (viewport, title, description, etc)</li>
+    <li>A header</li>
+    <li>A paragraph</li>
+    <li>A form (with all fields we learnt in class and two we didn’t learn using docs)</li>
+    <li>An unordered list and ordered list (nested if you wish)</li>
+    <li>An image with a link wrapped around it (clickable image)</li>
+    <li>A table using elements: table, thead, tbody, tr, th, td</li>
+  </ul>
+</p>
+<hr id="blue">
+<header>
+  <h3>A Heading Within a Header</h3>
+</header>
+<p>This is a paragraph.</p>
+<h4>Forms:</h4>
+<div id="names">
+<form >
+  First name: <input id = "firstname" type = "text" name = "first_name"/>
+  <br>
+  Last name:  <input id = "lastname" type = "text" name = "last_name" />
+</form>
+</div>
+<div id="textbox">
+  <p>
+<form>
+  Text Box: <br>
+  <textarea rows = "5" cols = "50" name = "description">Write Here...</textarea>
+  <br>
+  <button>Submit</button>
+</form>
+</p>
+</div>
+<div id="radiochoice">
+  <p>
+Would you like: <br>
+<form>
+    <input type = "radio" name = "foodchoice" value = "chicken"> Chicken
+    <input type = "radio" name = "foodchoice" value = "noodles"> Noodles
+    <input type = "radio" name = "foodchoice" value = "chilli"> Chilli
+    <input type = "radio" name = "foodchoice" value = "cake"> Cake
+ </form>
+</p>
+</div>
+<div id="dropdown">
+  <p>
+  <label for="pet-select">What is your favourite colour?</label>
+<select name="pets" id="pet-select">
+    <option value="">--Please choose an option--</option>
+    <option value="blue">Blue</option>
+    <option value="red">Red</option>
+    <option value="yellow">Yellow</option>
+    <option value="green">Green</option>
+    <option value="purple">Purple</option>
+    <option value="pink">Pink</option>
+</select>
+</p>
+</div>
+<div id="numbers">
+  <p>
+    <label for="n1">What is your favourite number?</label>
+    <input type="number" min="1" max="100" step="1" id="n1" name="number"
+           pattern="\d+">
+  </p>
+</div>
+<p>Favourite Hobbies (Select All That Apply): <br>
+<div id="hobbies">
+  <label for="football">Football</label>
+  <input type="checkbox" value="football" id="football" name="hobbies" />
+  <label for="eating">Eating</label>
+  <input type="checkbox" value="basketball" id="basketball" name="hobbies" />
+  <label for="snowboarding">Snowboarding</label>
+  <input type="checkbox" value="cricket" id="cricket" name="hobbies" />
+  <label for="sleeping">Sleeping</label>
+  <input type="checkbox" value="coding" id="coding" name="hobbies" />
+</p>
+</div>
+<div>
+  <label for="bar">Bar:</label>
+  <input type="range" id="bar" min="4" max="11" step="0.5"/>
+</div>
+<h4>Lists:</h4>
+<div id="unordered-list">
+  <p>
+    Unordered List:
+    <ul>
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ul>
+  </p>
+</div>
+<div id="ordered-list">
+  <p>
+    Ordered List:
+    <ol>
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ol>
+  </p>
+</div>
+<h4>Clickable Image:</h4>
+<p>
+  <a href="https://www.greyhoundtrusthallgreen.org.uk/">
+  <img src = "malc-bday-tongue.jpg" width = "200" height = "240" alt = "Malcolm The Greyhound">
+</a>
+</p>
+<div id="table">
+  <h4>Table:</h4>
+  <table cellpadding="5" cellspacing="10">
+    <caption>
+      <u><abr>LCFC</abr> Top Goalscorers in All Compititions 20/21</u>
+    </caption>
+    <tr>
+      <th>Player</th>
+      <th>Appearances</th>
+      <th>Goals</th>
+    </tr>
+    <tr>
+      <td>Jamie Vardy</td>
+      <td id="table-num">23</td>
+      <td id="table-num">14</td>
+    </tr>
+    <tr>
+      <td>Harvey Barnes</td>
+      <td id="table-num">31</td>
+      <td id="table-num">12</td>
+    </tr>
+    <tr>
+      <td>James Maddison</td>
+      <td id="table-num">30</td>
+      <td id="table-num">10</td>
+    </tr>
+    <tr>
+      <td>Youri Tielemans</td>
+      <td id="table-num">31</td>
+      <td id="table-num">6</td>
+    </tr>
+    <tr>
+      <td>Kelechi Iheanacho</td>
+      <td id="table-num">22</td>
+      <td id="table-num">5</td>
+    </tr>
+  </table>
+</div>
+</section>
+<hr id="divide">
+
+
+<section id="milestone3">
+  <h2>Milestone 3</h2>
+  <p>
+    Play CSS Diner to learn CSS selectors. <br>
+Use all we learnt today to apply to your HTML Milestone from last week. Let’s see who can make the fanciest document.
+  </p>
+  <hr id="blue">
+  <div id="css-diner">
+  <h4><a href="https://flukeout.github.io/">CSS Diner</a> Answers:</h4>
+  <ol>
+    <li>plate</li>
+    <li>bento</li>
+    <li>#fancy</li>
+    <li>plate apple</li>
+    <li>#fancy pickle</li>
+    <li>apple.small</li>
+    <li>orange.small</li>
+    <li>bento orange.small</li>
+    <li>plate, bento</li>
+    <li>*</li>
+    <li>plate *</li>
+    <li>plate + apple</li>
+    <li>bento ~ pickle</li>
+    <li>plate > apple</li>
+    <li>orange:first-child</li>
+    <li>plate *:only-child</li>
+    <li>apple:last-child, pickle:last-child</li>
+    <li>plate:nth-child(3)</li>
+    <li>bento:nth-last-child(3)</li>
+    <li>apple:first-of-type</li>
+    <li>plate:nth-of-type(even)</li>
+    <li>plate:nth-of-type(2n+3)</li>
+    <li>plate apple:only-of-type</li>
+    <li>orange:last-of-type, apple:last-of-type</li>
+    <li>bento:empty</li>
+    <li>:not(#fancy, pickle, .small, plate)</li>
+    <li>[for]</li>
+    <li>plate[for]</li>
+    <li>[for="Vitaly"]</li>
+    <li>[for^="S"]</li>
+    <li>[for$="o"]</li>
+    <li>[for*="o"]</li>
+  </ol>
+</div>
+<div id="some-css-stuff">
+  <h4 id="fancy-heading">Applying Some CSS to the document</h4>
+  <h2>Heading</h2>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ipsum, nam quia voluptas odio, vero voluptates explicabo illum, consequatur quos enim reprehenderit accusamus mollitia accusantium facere ex ratione totam commodi.</p>
+  <ul>
+    <li>List</li>
+    <li>List</li>
+    <li>List</li>
+  </ul>
+</div>
+</section>
+<hr id="divide">
+
+
+<section id="milestone4">
+  <h2>Milestone 4</h2>
+  <p>Flexbox Froggy <br>
+    Flexbox Defense <br>
+    CSS Grid Garden (optional)</p>
+  <hr id="blue">
+  <div id="flexbox-froggy">
+    <h4> <a href="https://flexboxfroggy.com/">Flexbox Froggy</a> Answers:</h4>
+    <ol>
+      <li>justify-content: flex-end;</li>
+      <li>justify-content: center;</li>
+      <li>justify-content: space-around;</li>
+      <li>justify-content: space-between;</li>
+      <li>align-items: flex-end;</li>
+      <li>justify-content: center; <br>
+        align-items: center;
+        </li>
+      <li>justify-content: space-around; <br>
+        align-items: flex-end;
+        </li>
+      <li>flex-direction: row-reverse;</li>
+      <li>flex-direction: column;</li>
+      <li>flex-direction: row-reverse; <br>
+        justify-content: flex-end;
+        </li>
+      <li>flex-direction: column; <br>
+        justify-content: flex-end;
+        </li>
+      <li>flex-direction: column-reverse; <br>
+        justify-content: space-between;
+        </li>
+      <li>flex-direction: row-reverse; <br>
+        justify-content: center; <br>
+        align-items: flex-end;
+        </li>
+      <li>order: 1;</li>
+      <li>order: -3;</li>
+      <li>align-self: flex-end;</li>
+      <li>order: 3; <br>
+        align-self: flex-end;
+        </li>
+      <li>flex-wrap: wrap;</li>
+      <li>flex-direction: column; <br>
+        flex-wrap: wrap;</li>
+      <li>flex-flow: column wrap; (equivalent to last question)</li>
+      <li>align-content: flex-start;</li>
+      <li>align-content: flex-end;</li>
+      <li>flex-direction: column-reverse; <br>
+        align-content: center;
+        </li>
+      <li>flex-flow: column-reverse wrap-reverse; <br>
+        justify-content: center; <br>
+        align-content: space-between;
+        </li>
+    </ol>
+  </div>
+  <div id="flexbox-defense">
+    <h4><a href="http://www.flexboxdefense.com/">Flexbox Defense</a> Answers:</h4>
+    <ol>
+      <li>
+        <ul>
+          <li>justify-content: center;</li>
+        </ul>
+      </li> <br>
+      <li> <ul>
+        <li>justify-content: flex-end;</li>
+        <li>justify-content: center;</li>
+        <li>justify-content: flex-end;</li>
+      </ul>
+        </li> <br>
+      <li>
+        <ul>
+          <li>justify-content: center;</li>
+          <li>justify-content: space-between;</li>
+        </ul>
+      </li> <br>
+      <li>
+        <ul>
+          <li>align-items: flex-end;</li>
+          <li>align-items: flex-end;</li>
+        </ul>
+      </li> <br>
+      <li>
+        <ul>
+          <li>justify-content: space-around; <br>
+            align-items: flex-end;
+            </li>
+          <li>justify-content: center;</li>
+          <li>justify-content: center; <br>
+            align-items: center;
+            </li>
+        </ul>
+      </li> <br>
+      <li>
+        <ul>
+          <li>justify-content: space-between; <br>
+            align-items: center;
+            </li>
+        </ul>
+      </li> <br>
+      <li>
+        <ul>
+          <li>flex-direction: column;</li>
+          <li>flex-direction: column;</li>
+        </ul>
+      </li> <br>
+      <li>
+        <ul>
+          <li>flex-direction: column;</li>
+          <li>flex-direction: column; <br>
+            align-items: center;
+            </li>
+        </ul>
+      </li> <br>
+      <li>
+        <ul>
+          <li>flex-direction: row-reverse; <br>
+            justify-content: space-around;
+            </li>
+          <li>flex-direction: row-reverse; <br>
+            align-items: center; <br>
+            justify-content: space-around;
+            </li>
+        </ul>
+      </li> <br>
+      <li>
+        <ul>
+          <li>justify-content: space-around;</li>
+          <li>-</li>
+          <li>order: 1;</li>
+          <li>-</li>
+          <li>justify-content: space-around;</li>
+          <li>-</li>
+          <li>order: -1;</li>
+          <li>-</li>
+        </ul>
+      </li> <br>
+      <li>
+        <ul>
+          <li>justify-content: space-between;</li>
+          <li>align-self: flex-end;</li>
+          <li>-</li>
+          <li>align-self: flex-end;</li>
+          <li>-</li>
+        </ul>
+      </li> <br>
+      <li>
+        <ul>
+          <li>justify-content: space-between;</li>
+          <li>-</li>
+          <li>order: 1; <br>
+            align-self: center;
+            </li>
+          <li>align-self: center;</li>
+          <li>align-self: center;</li>
+          <li>order: 1; <br>
+            align-self: flex-end;
+            </li>
+        </ul>
+      </li>
+    </ol>
+    <img src="flexboxhelp.png" alt="A Picture Aid of Flexbox Attributes from Flexbox Defense">
+  </div>
+  <div id="css-grid-garden">
+    <h4><a href="https://cssgridgarden.com/">CSS Grid Garden</a> Answers:</h4>
+    <ol>
+      <li>grid-column-start: 3;</li>
+      <li>grid-column-start: 5;</li>
+      <li>grid-column-end: 4;</li>
+      <li>grid-column-end: 2;</li>
+      <li>grid-column-end: -2;</li>
+      <li>grid-column-start: -3;</li>
+      <li>grid-column-end: span 2;</li>
+      <li>grid-column-end: span 5;</li>
+      <li>grid-column-start: span 3;</li>
+      <li>grid-column: 4 / 6; (same as: grid-column-start: 4; grid-column-end: 6;)</li>
+      <li>grid-column: 2 / span 3;</li>
+      <li>grid-row-start: 3;</li>
+      <li>grid-row: 3 / 6;</li>
+      <li>grid-column: 2; <br>
+        grid-row: 5;
+        </li>
+      <li>grid-column: 2 / 6; <br>
+        grid-row: 1 / 6;
+        </li>
+      <li>grid-area: 1 / 2 / 4 / 6; (same as: grid-column: 2 / 6; grid-row: 1 / 4;)</li>
+      <li>grid-area: 2 / 3 / 5 / 6;</li>
+      <li>order: 3;</li>
+      <li>order: -1;</li>
+      <li>grid-template-columns: 50%;</li>
+      <li>grid-template-columns: 12.5%;</li>
+      <li>grid-template-columns: 100px 3em 40%;</li>
+      <li>grid-template-columns: 1fr 5fr;</li>
+      <li>grid-template-columns: 50px 1fr 1fr 1fr 50px;</li>
+      <li>grid-template-columns: 75px 3fr 2fr;</li>
+      <li>grid-template-rows: 50px 0px 0px 0px;</li>
+      <li>grid-template: 60% / 200px;</li>
+      <li>grid-template: 1fr 50px / 1fr 4fr;</li>
+    </ol>
+  </div>
+</section>
+<hr id="divide">
+
+
+<section id="milestone5">
+  <h2>Milestone 5</h2>
+  <p>None</p>
+</section>
+<hr id="divide">
+
+
+<section id="milestone6">
+  <h2>Milestone 6</h2>
+  <p>Add proper CSS and responsiveness to your previous milestone. Be sure your milestone contains at least a form, image(s), text, headings, lists, and more if you can manage it all using Semantic HTML with accessibility. <br>
+    Feel free to be creative, adding transitions, fancy backgrounds or other nice UI elements, as long as you meet the basic requirements (some CSS and proper responsiveness in at least one different resolution). Use ems/rems/% for units and media queries for responsiveness
+    </p>
+  <hr id="blue">
+  <a href="milestone6.html">Link to Milestone 6 Page</a>
+</section>
+<hr id="divide">
+
+
+</body>
+</html>

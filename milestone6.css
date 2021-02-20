@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;700&display=swap");
+
+/* Navigation Bar */
+body,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+#home {
+  width: 40px;
+  height: 40px;
+}
+
+#nav-bar .pages {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 30px;
+  flex-grow: 1;
+}
+
+#nav-bar {
+  background-color: #fec89a;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+}
+
+#nav-bar li {
+  list-style-type: none;
+  font-size: 1.5rem;
+  display: block;
+}
+
+.home {
+  padding: 7.5px;
+  border-right: 1px solid black;
+}
+
+.pages li a {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+  padding: 0 10px;
+}
+
+.pages li a:hover {
+  background-color: #fb8500;
+  color: white;
+}
+
+/* Background */
+body {
+  background-color: #ffe5d9;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Heading */
+h1 {
+  padding: 7.5px;
+  text-decoration: underline dotted #fec89a;
+}
